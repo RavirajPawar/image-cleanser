@@ -3,7 +3,7 @@ import sys
 import datetime
 import os
 
-from architecture.singleton import Singleton
+from app.architecture.singleton import Singleton
 
 
 class CustomLogger(metaclass=Singleton):
